@@ -1,0 +1,60 @@
+<!DOCTYPE html lang='es'>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<title>Alessandro Baldo</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class='nav' id="navbar">
+			<ul class='list-container'>
+				<p><a class='nav-link' href="#welcome-section">Sobre mi</a></p>
+				<p><a class='nav-link' href='#projects'>Fotos</a></p>
+				<p><a class='nav-link' href='#contact'>Contacto</a></p>
+			</ul>
+		</nav>
+		<section id="welcome-section">
+			<div class="presentacion">
+				<h1 class='name'>¡Hola! Soy Alessandro Baldo</h1>
+				<p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus, velit nec luctus lacinia, turpis lectus fermentum purus, et faucibus lectus neque eget lacus. Maecenas lacinia metus nunc, blandit pretium felis scelerisque in. Donec iaculis urna sit amet purus mattis.<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est urna, volutpat ac eros vitae, pretium molestie elit. Aliquam vulputate convallis ex. Nulla in sem feugiat, porttitor erat non, mattis magna. Duis at nulla sagittis, molestie nisi ac, semper ligula. Curabitur eu ullamcorper dolor. Proin interdum enim id nibh dictum malesuada et.</p>
+			</div>
+		</section>
+		<section id="projects">
+			<div class="title">
+				<h1 class='tile-name'>Algunas de mis fotos</h1>
+			</div>
+			<div class="project-tile">
+				<img class='fotos' src='//im.vsco.co/aws-us-west-2/1ea6e0/96205143/619319f02635525e0f000001/vsco619319fb67699.jpg?w=260 1x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/619319f02635525e0f000001/vsco619319fb67699.jpg?w=260&dpr=2 2x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/619319f02635525e0f000001/vsco619319fb67699.jpg?w=260&dpr=3 3x'>
+				<img class='fotos' src='//im.vsco.co/aws-us-west-2/1ea6e0/96205143/61d8dfc6263552047c000003/vsco61d8dfc99d93e.jpg?w=260 1x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/61d8dfc6263552047c000003/vsco61d8dfc99d93e.jpg?w=260&dpr=2 2x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/61d8dfc6263552047c000003/vsco61d8dfc99d93e.jpg?w=260&dpr=3 3x'>
+				<img class='fotos' src='//im.vsco.co/aws-us-west-2/1ea6e0/96205143/61b62b582635525560000003/vsco61b62b5b0b0ec.jpg?w=260 1x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/61b62b582635525560000003/vsco61b62b5b0b0ec.jpg?w=260&dpr=2 2x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/61b62b582635525560000003/vsco61b62b5b0b0ec.jpg?w=260&dpr=3 3x'>
+				<img class='fotos' src='//im.vsco.co/aws-us-west-2/1ea6e0/96205143/611738f62635521369000001/vsco611738fa49327.jpg?w=260 1x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/611738f62635521369000001/vsco611738fa49327.jpg?w=260&dpr=2 2x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/611738f62635521369000001/vsco611738fa49327.jpg?w=260&dpr=3 3x'>
+				<img class='fotos' src='//im.vsco.co/aws-us-west-2/1ea6e0/96205143/6090b1502ffaa14fb6000006/vsco6090b161e41aa.jpg?w=260 1x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/6090b1502ffaa14fb6000006/vsco6090b161e41aa.jpg?w=260&dpr=2 2x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/6090b1502ffaa14fb6000006/vsco6090b161e41aa.jpg?w=260&dpr=3 3x'>
+				<img class='fotos' src='//im.vsco.co/aws-us-west-2/1ea6e0/96205143/607dfe672ffaa1574e000002/vsco607dfe7475587.jpg?w=260 1x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/607dfe672ffaa1574e000002/vsco607dfe7475587.jpg?w=260&dpr=2 2x,
+       //im.vsco.co/aws-us-west-2/1ea6e0/96205143/607dfe672ffaa1574e000002/vsco607dfe7475587.jpg?w=260&dpr=3 3x'>
+			</div>
+			<p class="vsco-profile"><a href="https://vsco.co/zosui97/gallery" target="_blank">Ver más fotos en mi perfil de VSCO</a></p>
+		</section>
+		<section id="contact">
+      <h1 class='contacto'>Contacto</h1>
+			<div class="contenedor-redes">
+				<a id='profile-link' href='https://github.com/zosui' target='_blank'><img class='logo' src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png"></a>
+				<a id='profile-insta' href='https://github.com/zosui' target='_blank'><img class='logo' src="https://seeklogo.com/images/I/instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png"></a>
+				<a id='profile-linkedin' href='https://github.com/zosui' target='_blank'><img class='logo' src="https://seeklogo.com/images/L/linkedin-black-icon-logo-ECC426C572-seeklogo.com.png"></a>
+			</div>
+		</section>
+	</body>
+</html>
